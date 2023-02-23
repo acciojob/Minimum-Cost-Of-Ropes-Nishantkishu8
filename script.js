@@ -19,7 +19,7 @@ function minCostToFormRope(event) {
 		cost += res;
 		
 		
-		arr.sort(function(a , b) {return a -b});
+		arr.sort(function (a , b) {return a -b});
 	}
 	document.getElementById("result").textContent = cost;
   //your code here
